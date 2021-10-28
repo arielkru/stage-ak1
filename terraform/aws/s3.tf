@@ -1,4 +1,7 @@
 resource "aws_s3_bucket" "data" {
+  
+  #no changes
+  
   # Test
   # bucket is public
   # bucket is not encrypted
@@ -89,3 +92,5 @@ resource "aws_s3_bucket" "logs" {
     Environment = local.resource_prefix.value
   }
 }
+
+
