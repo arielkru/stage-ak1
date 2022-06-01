@@ -1,5 +1,7 @@
 FROM public.ecr.aws/lambda/python:3.9
 
+docker pull python
+
 ENV JAVA_VERSION="java-11-amazon-corretto"
 ENV JAVA_HOME="/usr/lib/jvm/${JAVA_VERSION}.x86_64"
 ENV MAVEN_HOME /usr/share/maven
